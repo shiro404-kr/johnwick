@@ -1,0 +1,63 @@
+
+body {
+    /* background: red; */
+}
+
+.container {
+    position: relative;
+    max-width: 1600px;
+    /* height: 100vh; */
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+}
+
+#main_header {
+    position: absolute;
+    display: inline-block;
+    /* width: 100%; */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    /* outline: 1px solid green; */
+    height: 100vh;
+    text-align: center;
+    padding-top: 90px;
+    /* padding-right: 40px; */
+}
+
+.header_box {
+    width: 100%;
+    position: absolute;
+    left: 0; top: 50%;
+    transform: translateY(-50%);
+    /* outline: 2px solid white; */
+}
+#main_header h1 > img {
+    width: 88%;
+
+}
+
+/* 시놉시스 팝업 */
+#synop-popup {
+    position: fixed;
+    width: 80%;
+    height: 70%;
+    /* overflow: scroll; */
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    padding: 60px;
+    display: none;
+}
+
+#synop-popup h2 {
+    font-size: 22px;
+
+}
+
+
+
+
+
